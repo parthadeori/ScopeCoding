@@ -94,6 +94,8 @@ nav {
     width: 250px;
     background-color: #333;
     margin-right: 25px;
+    height: 500px;
+    overflow-y: scroll;
 }
 
 .index-div > h1 {
@@ -146,6 +148,14 @@ nav {
 }
 
 .secondary-heading {
+    margin-top: 25px;
+}
+
+.point-list {
+    margin-left: 25px;
+}
+
+.para {
     margin-top: 25px;
 }
 
