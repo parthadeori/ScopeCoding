@@ -1,2 +1,2 @@
 # ScopeCoding
-ScopeCoding Site
+ScopeCoding Site: parthadeori.github.io/ScopeCoding
