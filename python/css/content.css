@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+.content-main {
+    font-style: normal;
+    font-family: 'Kanit', sans-serif;
+
+    line-height: 25px;
+    font-size: 18px;
+}
+
+* {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+}
+
+
+h1 {
+    margin: 50px 0px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
+.innerheadings {
+    margin: 60px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.example {
+    background-color: yellow;
+    border-left: 8px solid rgba(48, 48, 253, 0.895);
+}
+
+.example ul li {
+    list-style: none;
+
+}
+
+
+.point-wise {
+    margin-left: 10px;
+}
+
+.point-wise li {
+    list-style-type: lower-alpha;
+}
+
+.hlines {
+    background-color: bisque;
+    color: blue;
+}
+
+.tbl1 {
+    border: .5px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tbl1 td,
+.tbl1 th {
+    border: .5px solid black;
+    align-items: center;
+    text-align: center;
+}
+
+.tbl1 th {
+    font-weight: bold;
+}
+
+b {
+    font-weight: bold;
+}
+
+/* BUTTON  NEXT/PREV*/
+
+.button {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.button>button {
+    padding: 10px 15px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+}
+
+.button>button a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 10px 16px;
+
+}
+
+.colortbl {
+    background-color: aquamarine;
+}
+
+
+.scroll-con {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    width: 300px;
+
+
+}
+
+.scroll-con div ul {
+    width: 200px;
+    padding-left: 20px;
+}
+
+
+.scroll-con div ul li {
+    list-style: none;
+}
+
+.image {
+    width: 70%
+}
+
+.pb {
+    border: 0.02px solid rgb(188, 186, 186);
+    border-radius: 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.formclass {
+    background-color: rgb(15, 145, 23);
+    color: white;
+    margin-left: 300px;
+
+}
+
+form>input {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 10px;
+
+}
+
+form>button {
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+
+form {
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.note {
+    font-weight: bold;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#msgbox {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.division {
+    /* border: 1px solid red; */
+    margin: -25px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.division p {
+    margin: 20px 0px;
+}
+
+.part1 {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 2px;
+    margin: 20px;
+    width: 45%;
+    flex: 40%;
+    box-shadow: 0px 10px 15px grey;
+
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.st-image {
+    width: 100%;
+}
+
+
+
+@media (max-width:850px) {
+
+    .division {
+        display: block;
+        /* flex-wrap: wrap; */
+    }
+
+    .part1 {
+        margin: 50px 0;
+        width: 100%;
+    }
+
+    .formclass {
+
+        margin: 0;
+    }
+
+
+
+}
+
+@media (max-width:1100px) {
+    .part1 {
+        flex: 50%;
+    }
+}
