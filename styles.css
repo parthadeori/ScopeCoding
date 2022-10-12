@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.title-section {
+    width: 100%;
+    background: url(images/pexels-uzunov-rostislav-5011647.jpg);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-section > nav {
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links > li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.nav-links > li > a {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+
+.nav-links > li > a:hover {
+    font-weight: 500;
+}
+
+.nav-links > li:nth-child(3n) {
+    margin-right: 25px;
+}
+
+#get-started-btn {
+    background-color: #fff;
+}
+
+#get-started-btn > a {
+    color: #333;
+}
+
+.title-intro {
+    width: 50%;
+    margin-top: 20%;
+    margin-left: 60px;
+    line-height: 1.5;
+}
+
+.title-intro > h1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.title-intro > a {
+    color: #333;
+    padding: 20px;
+    background-color: #fff;
+    margin-left: 5px;
+}
+
+.feature-section {
+    width: 100%;
+    padding: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.grid-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.grid {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#coding-div {
+    background-color: lightsalmon;
+}
+
+#project-div {
+    background-color: lightpink;
+}
+
+#learn-div {
+    background-color: lightskyblue;
+}
+
+.grid-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid {
+    margin-bottom: 15px;
+}
+
+.grid > img {
+    width: 50px;
+}
+
+.feature-section > h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.about-section {
+    width: 100%;
+    background-color: #034694;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-heading {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.about-paragraph {
+    width: 50%;
+    padding-right: 50px;
+}
+
+.about-heading > h3 {
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: left;
+    color: #fff;
+}
+
+.about-paragraph > p {
+    font-size: 30px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.learn-section {
+    width: 100%;
+    padding: 25px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.learn-section > h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+.course-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.course-heading {
+    width: 60%;
+    line-height: 2;
+}
+
+.course-heading > h1 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.course-heading > p {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.learn-btn {
+    padding: 25px;
+    background-color: #034694;
+    color: #fff;
+}
+
+.learn-btn:hover {
+    padding: 27px;
+    transition: all 0.5s;
+}
+
+.course-img > img {
+    width: 250px;
+}
+
+#learn-python {
+    margin-top: 100px;
+    flex-direction: row-reverse;
+}
+
+.quote-section {
+    width: 100%;
+    padding: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+    line-height: 1.5;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 300px;
+    background: url(images/pexels-uzunov-rostislav-5011647.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-section > h1 {
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.quote-section > p {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.contact-section {
+    width: 100%;
+    padding: 25px;
+    margin-bottom: 100px;
+}
+
+.contact-section > h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.contact-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.contact-img > img {
+    width: 500px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact-form-heading > h1 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.contact-form-heading > p {
+    font-style: italic;
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form > label {
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+form > input {
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.send-btn {
+    margin-left: auto;
+    padding: 15px;
+    margin-top: 25px;
+    background-color: #034694;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-section {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px;
+    background-color: #333;
+}
+
+.footer-section > p {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.copyright-div > p {
+    color: #fff;
+}
+
+.copyright-div > p > a {
+    color: #808080;
+    font-weight: 600;
+}
+
+.copyright-div > p > a:hover {
+    color: #fff;
+}
+
+.tos > a {
+    color: #808080;
+    font-weight: 600;
+    margin-right: 25px;
+}
+
+.tos > a:hover {
+    color: #fff;
+}

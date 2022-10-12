@@ -4,116 +4,149 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ScopeCoding.com - Home</title>
-    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <title>ScopeCoding - Home</title>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <nav>
-        <a href="" class="brand-name">
-           <span class="scope">Scope</span>
-           <span class="coding">Coding</span> 
-        </a>
-        <a href="#" id="toggle-btn" onclick="toggleBtn()">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-        <ul id="nav-links">
-            <li><a class="active" href="#title">Home</a></li>
-            <li><a href="#learn">Learn</a></li>
-            <li><a href="#about-us">About Us</a></li>
-            <li><a href="#connect">Connect With Us</a></li>
-        </ul>
-    </nav>
+    <section class="title-section" id="title-section">
+        <nav>
+            <a href="">ScopeCoding</a>
+            <ul class="nav-links">
+                <li><a href="">About</a></li>
+                <li><a href="">Learn</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </a></li>
+                <li><a href="">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a></li>
+                <li><a href="">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a></li>
+                <li id="get-started-btn"><a href="">Get Started</a></li>
+            </ul>
+        </nav>
 
-    <!-- TITLE -->
-    <section class="title-section" id="title">
-        <div class="title-heading">
-            <h1>Hello Programmers 💻</h1>
+        <div class="title-intro">
+            <h1>
+                Start Your Coding Journey With Us.
+            </h1>
+            <a href="">
+                Get Started
+            </a>
+        </div>
+    </section>
+
+    <section class="feature-section" id="feature-section">
+        <h1>Why Choose Us?</h1>
+        <div class="grid-div">
+            <div class="grid-box">
+                <div class="grid" id="coding-div">
+                    <img src="images/coding.png" alt="">
+                </div>
+                <b>Easy to Follow</b>
+            </div>
+            <div class="grid-box">
+                <div class="grid" id="project-div">
+                    <img src="images/design.png" alt="">
+                </div>
+                <b>Include Coding Projects</b>
+            </div>
+            <div class="grid-box">
+                <div class="grid" id="learn-div">
+                    <img src="images/programming.png" alt="">
+                </div>
+                <b>Easy to Understand</b>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="about-heading">
+            <h3>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, perferendis.
+            </h3>
+        </div>
+        <div class="about-paragraph">
             <p>
-                Welcome to our coding blog. Here we will help you to code in C and Python. Hope you enjoy our beautiful blog. Later we'll be posting more coding tutorials for different programming language. 
-            </p>
-        </div>
-        <div class="title-img">
-            <img src="images/title-img.jpg" alt="">
-        </div>
-    </section>
-
-    <!-- LEARN -->
-    <section class="learn-section" id="learn">
-        <div class="learn-section-heading">
-            <h1>Choose Your Learning Path</h1>
-        </div>
-        <a href="c/c-intro.html" class="c-container">
-            <div class="learn-intro">
-                <h3>Learn C</h3>
-                <p>
-                    C is a powerful general-purpose programming language. It can be used to develop software like operating systems, databases, compilers, and so on. C programming is an excellent language to learn to program for beginners.
-                </p>
-            </div>
-            <div class="learn-logo">
-                <img src="images/c-logo.svg" alt="">
-            </div>
-        </a>
-        <a href="python/intro-to-python.html" class="python-container">
-            <div class="learn-intro">
-                <h3>Learn Python</h3>
-                <p>
-                    Python is a general-purpose, versatile, and powerful programming language. It’s a great first language because it’s concise and easy to read. Whatever you want to do, Python can do it. From web development to machine learning to data science, Python is the language for you.
-                </p>
-            </div>
-            <div class="learn-logo">
-                <img src="images/python-logo-1.png" alt="">
-            </div>
-        </a>
-    </section>
-
-    <!-- ABOUT US -->
-    <section class="about-us-section" id="about-us">
-        <div class="about-us-heading">
-            <h1>About Us</h1>
-        </div>
-        <div class="our-intro">
-            <p style="text-align: center;">
-                ScopeCoding is a Professional Educational Platform. Here we will provide you only interesting content, which you will like very much. We're dedicated to providing you the best of Educational, with a focus on dependability and Programming Tutorials. We're working to turn our passion for Educational into a booming online website. We hope you enjoy our Educational as much as we enjoy offering them to you.
-                I will keep posting more important posts on my Website for all of you. Please give your support and love.
-                <br>
-                Thanks For Visiting Our Site
-                <br>
-                Have a nice day!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eum iusto ex sequi nostrum distinctio quis fuga! Fugiat, aspernatur nobis?
             </p>
         </div>
     </section>
 
-    <!-- CONNECT WITH US -->
-    <section class="connect-section" id="connect">
-        <div class="connect-heading">
-            <h1>Connect With Us</h1>
+    <section class="learn-section" id="learn-section">
+        <h1>Learn to Code</h1>
+        <div class="course-div" id="learn-c">
+            <div class="course-heading">
+                <h1>Learn C</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quibusdam commodi nesciunt a labore. Odit error in quibusdam dolor distinctio saepe inventore cum vitae veritatis repellendus optio animi, suscipit assumenda?
+                </p>
+                <a href="" class="learn-btn">Learn C</a>
+            </div>
+            <div class="course-img">
+                <img src="images/c-prog.svg" alt="">
+            </div>
         </div>
-        <div class="connect-container">
-            <div>
-                <a href="mailto:someone@example.com"><ion-icon class="ion-icon" name="mail-outline"></ion-icon>scopecoding@gmail.com</a>
-                <a href=""><ion-icon class="ion-icon" name="logo-instagram"></ion-icon>@scopecodingofficial</a>
-                <a href=""><ion-icon class="ion-icon" name="mail-outline"></ion-icon>@scopecodingofficial</a>
+        <div class="course-div" id="learn-python">
+            <div class="course-heading">
+                <h1>Learn Python</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quibusdam commodi nesciunt a labore. Odit error in quibusdam dolor distinctio saepe inventore cum vitae veritatis repellendus optio animi, suscipit assumenda?
+                </p>
+                <a href="" class="learn-btn">Learn Python</a>
+            </div>
+            <div class="course-img">
+                <img src="images/python.svg" alt="">
             </div>
         </div>
     </section>
 
-    <!-- FOOTER -->
-    <footer>
+    <section class="quote-section" id="quote-section">
+        <h1>"
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.    
+        "</h1>
+        <p>
+            - Quote By Someone
+        </p>
+    </section>
+
+    <section class="contact-section" id="contact-section">
+        <h1>Connect With Us</h1>
+        <div class="contact-grid">
+            <div class="contact-img">
+                <img src="images/pexels-tranmautritam-58709.jpg" alt="">
+            </div>
+            <div class="contact-form">
+                <div class="contact-form-heading">
+                    <h1>Send Us Your Email</h1>
+                    <p>And we'll try to contact you soon</p>
+                </div>
+                <form action="">
+                    <label for="email">Email</label>
+                    <input type="text" placeholder="example@email.com">
+                </form>
+                <a class="send-btn" href="">SEND</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-section" id="footer-section">
+        <p>Made with ❤️ in India</p>
         <div class="copyright-div">
-            <p>Copyrights © <a href="#navigation">2022 ScopeCoding.</a> All rights reserved.</p>
-            <br>
-            <a class="tos" href="">Terms of use</a>
+            <p>
+                Copyrights © 2022
+                <a href="">ScopeCoding</a>. All Rights Reserved.
+            </p>
+        </div>
+        <div class="tos">
+            <a href="">Terms of Use</a>
             <a href="">Privacy Policy</a>
         </div>
-    </footer>
-
-    
-    <script src="js/script.js"></script>
+    </section>
     
 </body>
 </html>
